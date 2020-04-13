@@ -5,9 +5,8 @@ mylist = putStrLn "I may not work"
 
 
 
-maxList :: [Integer] -> Integer
-maxlist[] = putStrLn "Please input atleast 1 element"
-maxList(x) = maximum x
+maxlist :: [Integer] -> Integer
+maxlist(x) = maximum x
 
 
 
